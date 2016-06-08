@@ -1,0 +1,149 @@
+@media screen and (max-width: 720px) {
+	html, body {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		font-family: Verdana, sans-serif;
+	}
+	
+	.hide-menu {
+		background-color: #151515;
+		height: 200px;
+		width: 100%;
+		margin: 0 auto;
+		display: none;
+	}
+	
+	.hide-menu ul {
+		margin-top: -5px;
+		padding: 0;
+		color: white;
+		list-style: none;
+		text-align: center;
+		font-size: 20pt;
+	}
+	
+	.hide-menu li{
+		margin-top: 5px;
+		cursor: pointer;
+	}
+	
+	.hide-menu a {
+		color: white;
+		text-decoration: none;
+	}
+	
+	.container {
+		background-color: #151515;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.menu {
+		height: 50px;
+		padding: 10px
+	}
+	
+	.menu h2 {
+		margin: 0;
+		color: white;
+		float: left;
+		font-size: 23pt;
+		margin-left: 10px;
+	}
+	
+	.menu img {
+		width: 35px;
+		float: right;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+	
+	hr {
+		color: #72cc96;
+		width: 90%;
+		margin-top: -15px;
+	}
+
+	.files {
+		width: 300px;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+
+	.files img {
+		width: 300px;
+	}
+	
+	#loginForm {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	
+	#registerForm {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	#uploadForm {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+		color: white;
+	}
+	
+	input[type="text"] {
+		width: 200px;
+		text-align: center;
+	}
+	
+	input[type="password"] {
+		width: 200px;
+		text-align: center;
+	}
+	
+	input[type="email"] {
+		width: 200px;
+		text-align: center;
+	}
+	
+	input[type="date"] {
+		width: 200px;
+		text-align: center;
+	}
+	
+	textarea {
+		width: 200px;
+		text-align: center;
+	}
+	
+	input[type="file"] {
+		width: 200px;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
